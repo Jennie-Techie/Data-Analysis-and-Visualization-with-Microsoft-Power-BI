@@ -1,7 +1,7 @@
 # Data-Analysis-and-Visualization-with-Microsoft-Power-BI
 
 ## PROJECT DESCRIPTION
-This is a data analysis project which is centered around business KPIS, data cleaning and transformation, data visualization. 
+This is a data analysis project which is centered around business KPIs, data cleaning and transformation, data visualization. 
 
 #### Data Source
 * CSV files / Excel Workbook
