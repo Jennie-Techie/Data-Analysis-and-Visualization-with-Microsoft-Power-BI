@@ -1,12 +1,30 @@
 # Data-Analysis-and-Visualization-with-Microsoft-Power-BI
 
 ## PROJECT DESCRIPTION
+This is a data analysis project which is centered around business KPIS, data cleaning and transformation, data visualization. 
 
-## Business Requests & User Stories
-Read the business requirements and user stories to understand the problems to be solved with data analysis and possible solution to be considered. 
+### Data Source
+* CSV files / Excel Workbook
 
-## Business Problem
- The sales executive would like to see how the sales department have performed since the new sales manager joined the company two years ago, in order to determine promotions and bonuses. He wants the dashbaord to be in the company's brand colors: white and blue. The data to be used for the dashboards reside in the company's Mysql database and some excel files. 
+#### Tools
+* Power BI Desktop
+
+#### This project was built with the following Power BI Desktop components:
+* **Power Query**
+* **Power Pivot**
+* **Power View**
+
+## Business Requirements & User Stories
+The table below shows the business requirements and user stories, derived after meeting the various stakeholders. 
+
+
+|User Story no. | As a (role) | I want (goal) | so that (result) | Acceptance Criteria |
+|-------------- | ------------| --------------| -----------------| -------------------|
+| 1.            | Sales Executive | To see at a glance our sales performance and revenue across various states | Can evaluate our profitability and plan towards the next quarter | A power BI dashboard which tracks sales KPIs and updates daily |
+| 2.            | Sales Manager | To know our best and least performing products in the market | Can strategize on how to improve the sales of the low performing products | A Power BI dashboard with filters on products data |
+| 3. | HR Manager | A detailed overview of our sales team’s performance | Can determine promotions and bonuses in the next quarter | A Power BI dashboard with filters on sales representatives and their performance |
+| 4. | Sales Representative | An overview of our sales per customer | Can track my customers and device ways to keep them loyal to our brand | A Power BI dashboard with filters on customer data and updates daily |
+
 
 
 #### Business Questions
@@ -28,15 +46,6 @@ Read the business requirements and user stories to understand the problems to be
 * Top 5 performing sales representatives
 * Total sales per month
 
-### Data Source
-* CSV files
-
-#### Tools
-* Power BI Desktop
-#### This project was built with the following Power BI Desktop components:
-* **Power Query**
-* **Power Pivot**
-* **Power View**
 
 
 # PROJECT PROCEDURES
