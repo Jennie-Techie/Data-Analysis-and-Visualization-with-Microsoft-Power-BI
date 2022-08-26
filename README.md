@@ -3,7 +3,7 @@
 ## PROJECT DESCRIPTION
 This is a data analysis project which is centered around business KPIS, data cleaning and transformation, data visualization. 
 
-### Data Source
+#### Data Source
 * CSV files / Excel Workbook
 
 #### Tools
@@ -20,10 +20,10 @@ The table below shows the business requirements and user stories, derived after 
 
 |User Story no. | As a (role) | I want (goal) | so that (result) | Acceptance Criteria |
 |-------------- | ------------| --------------| -----------------| -------------------|
-| 1.            | Sales Executive | To see at a glance our sales performance and revenue across various states | Can evaluate our profitability and plan towards the next quarter | A power BI dashboard which tracks sales KPIs and updates daily |
-| 2.            | Sales Manager | To know our best and least performing products in the market | Can strategize on how to improve the sales of the low performing products | A Power BI dashboard with filters on products data |
-| 3. | HR Manager | A detailed overview of our sales team’s performance | Can determine promotions and bonuses in the next quarter | A Power BI dashboard with filters on sales representatives and their performance |
-| 4. | Sales Representative | An overview of our sales per customer | Can track my customers and device ways to keep them loyal to our brand | A Power BI dashboard with filters on customer data and updates daily |
+| 1.            | **Sales Executive** | To see at a glance our sales performance and revenue across various states | Can evaluate our profitability and plan towards the next quarter | A power BI dashboard which tracks sales KPIs and updates daily |
+| 2.            | **Sales Manager** | To know our best and least performing products in the market | Can strategize on how to improve the sales of the low performing products | A Power BI dashboard with filters on products data |
+| 3. | **HR Manager** | A detailed overview of our sales team’s performance | Can determine promotions and bonuses in the next quarter | A Power BI dashboard with filters on sales representatives and their performance |
+| 4. | **Sales Representative** | An overview of our sales per customer | Can track my customers and device ways to keep them loyal to our brand | A Power BI dashboard with filters on customer data and updates daily |
 
 
 
