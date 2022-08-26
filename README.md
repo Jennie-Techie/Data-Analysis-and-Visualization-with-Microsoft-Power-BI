@@ -66,5 +66,25 @@ Launch Power BI Desktop. Import Data
 > * Change data type of cost price column to whole number
 > * Change data type of selling price column to whole number
 
+#### Merge Tables
+> * Merge Product table and Sales table using Product column
+
+#### Close and Apply Changes in Power Query
+
+### CREATE DATA MODELS
+* Check data models to ensure tables are properly linked. 
+* Link Sales persons in both Employee table and Sales table.
+
+### POWER PIVOT: CREATE MEASURES IN DAX
+Create the following measures:
+> * Total Customers
+> * Profit
+> * Profit Percentage
+
+### CREATE VISUALS 
+* Insert charts, cards, filters and slicers to show all the KPIs. 
+* Format dashbaord background
+
+### PUBLISH & SHARE
 
 
