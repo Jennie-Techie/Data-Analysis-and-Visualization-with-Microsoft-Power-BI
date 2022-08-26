@@ -1,73 +1,70 @@
 # Data-Analysis-and-Visualization-with-Microsoft-Power-BI
 
+## PROJECT DESCRIPTION
+
+## Business Requests & User Stories
+Read the business requirements and user stories to understand the problems to be solved with data analysis and possible solution to be considered. 
+
 ## Business Problem
-JustBuy is a wholesale Electronics store which services only corporate clients, located in Canada. Our sales manager wants to see how the sales team have performed in the last 2 years (2020 and 2021). The requirement given to the data analyst includes the following KPIs. Sales manager needs to evaluate the sales representatives performance to determine promotions and bonuses. 
-
-Business Requirement: This dashboard will conatin the sales statement showing year to year date in monthly buckets, 
-
-Dashboard Purpose: 
-Who is the audience? Sales Executive and Marketing Manager
-What are the business questions?: How is our sales team performing since the change of the sales manager? 
-What are the KPIs? 
-
-Dashbaord Design: 
-Is the dashbaord exploratory or explanatory?
-How many tabs do you envision?
-Are there specific brand colours, font and logo that should be used?
+ The sales executive would like to see how the sales department have performed since the new sales manager joined the company two years ago, in order to determine promotions and bonuses. He wants the dashbaord to be in the company's brand colors: white and blue. The data to be used for the dashboards reside in the company's Mysql database and some excel files. 
 
 
+#### Business Questions
+* How many customers have we served in the past 2 years? 
+* What is our total revenue in the past 2 years? 
+* What is our profit for each year? 
+* What is our profit percentage per year. 
+* Who are our top sales representatives?  
+* How have sales been distributed across various states?
+* Who are our top 5 customers?
 
-ow many customers have we served in the past 2 years? 
+#### Key Metrics / Key Performance Indicators
+* Total Revenue per year
+* Total number of customers
+* Total cost per year
+* Profit
+* Profit percentage per year
+* Top 5 selling products
+* Top 5 performing sales representatives
+* Total sales per month
 
-What is our total revenue in the past 2 years? 
+### Data Source
+* CSV files
 
-What is our profit for each year? 
-
-What is our profit percentage per year. 
-
-Who are our top sales representatives?  
-
-How have sales been distributed across various states? 
-
-Who are our top 5 customers 
-
-What is our total sales per month 
-
-Year Over Year Growth 
-
-Number of Customers 
-
-Total Revenue 
-
-Profit percentage per year 
-
-Sales distribution across various states 
-
-Top 5 customers 
-
-Top performing sales representatives 
-
-Sales per month 
-
-### Tools:
-> 1. CSV files
-> 2. MySQL server
-> 2. Power BI Desktop
-
-This project was built with the following Power BI Desktop components:
->* #### Power Query
->* #### Power Pivot
->* #### Power View
+#### Tools
+* Power BI Desktop
+#### This project was built with the following Power BI Desktop components:
+* **Power Query**
+* **Power Pivot**
+* **Power View**
 
 
+# PROJECT PROCEDURES
+
+### Power BI Desktop
+Launch Power BI Desktop. Import Data
+
+### ETL with Power Query: 
+* Import Data to Power Query; Power BI's built in Extraction-Transform-Load tool. 
+* Explore the data to see what tables contain columns that need to be cleaned. 
+* Identified 3 tables which need to be transformed: Sales Table, Employee Table, Products Table.
+
+#### Data Cleaning of Sales Table
+> * Set 1st row as header
+> * Remove unnecessary columns
+> * Rename Address 1
+> * Extract the state from the address 2.
+> * Format the date from text to date type
+> * Extract the month and Year from the date column
+> * Format numbers: change the number type from text to whole numbers
+
+#### Data Cleaning of Employee Table
+> * Capitalize the first letters of the first and last names of employees
+> * Change salary column data type to whole numbers
+
+#### Data Cleaning of Products Table
+> * Change data type of cost price column to whole number
+> * Change data type of selling price column to whole number
 
 
 
-
-Business Problem: Our Sales Manager wants to see how the sales team have performed in the last 2 years. /  
-
-Objective: Conducting Descriptive Analytics on our sales department to see business performance in the last 2 years. 
-
-Tools: Power BI (Power Query, Power Pivot and Visuals) 
-
-Data Source: CSV files 
