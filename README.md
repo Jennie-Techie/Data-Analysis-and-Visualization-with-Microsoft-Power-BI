@@ -96,4 +96,12 @@ Create the following measures:
 
 ### PUBLISH & SHARE
 
+### 1. Product Analysis Dashboard
+![Image](https://github.com/Jennie-Techie/Data-Analysis-and-Visualization-with-Microsoft-Power-BI/blob/e30d11a495e7058f46150bdec669d17a7617cd0f/Products%20Analysis%20Dashboard.png)
+
+### 2. Customer Analysis Dashboard
+![Image](https://github.com/Jennie-Techie/Data-Analysis-and-Visualization-with-Microsoft-Power-BI/blob/e30d11a495e7058f46150bdec669d17a7617cd0f/Customer%20Analysis%20Power%20BI%20Dashbaord.png)
+
+### 3. Sales Analysis Dashboard
+![image](https://github.com/Jennie-Techie/Data-Analysis-and-Visualization-with-Microsoft-Power-BI/blob/e30d11a495e7058f46150bdec669d17a7617cd0f/Sales%20Analysis%20Power%20BI%20Dashboard.png)
 
