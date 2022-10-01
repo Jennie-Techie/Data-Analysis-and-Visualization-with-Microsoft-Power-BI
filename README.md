@@ -83,6 +83,8 @@ Launch Power BI Desktop. Import Data
 ### CREATE DATA MODELS
 * Check data models to ensure tables are properly linked. 
 * Link Sales persons in both Employee table and Sales table.
+![datamodel](https://github.com/Jennie-Techie/Data-Analysis-and-Visualization-with-Microsoft-Power-BI/blob/9a14f68b974ffb882819497b78646965f814bd0f/Data%20model.png)
+
 
 ### POWER PIVOT: CREATE MEASURES IN DAX
 Create the following measures:
